@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>E-Commerce</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet"
+  href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+
+    <h2>E-Commerce</h2>
+
+    <div class="nav-links">
+
+      <a href="cart.html">
+        Cart
+      </a>
+
+      <a href="orders.html">
+        Orders
+      </a>
+
+      <div id="navUser"></div>
+
+    </div>
+
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+
+    <h1>
+      Modern E-Commerce Store
+    </h1>
+
+    <p>
+      Buy Best Products Online
+    </p>
+
+  </section>
+
+  <!-- Products -->
+  <section class="products-section">
+
+    <h2>
+      Products
+    </h2>
+
+    <input
+    type="text"
+    id="searchInput"
+    placeholder="Search products..."
+    class="search-bar"/>
+
+    <div
+    id="productsContainer"
+    class="products-grid">
+
+    </div>
+
+  </section>
+
+  <!-- Scripts -->
+  <script type="module"
+  src="./js/auth.js"></script>
+
+  <script type="module"
+  src="./js/products.js"></script>
+  <div id="toast"></div>
+
+</body>
+
+</html>
